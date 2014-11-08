@@ -5,5 +5,8 @@ body {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	
-	font-size: 30px;
+	font-size: 60px;
+}
+.bookmark-group h1 {
+	font-size: 70px;
 }
