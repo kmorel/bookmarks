@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.bookmark-group p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.bookmark-group h1 {
+	margin-bottom: 0px;
+	font-weight: bolder;
+	font-size: large;
+}
