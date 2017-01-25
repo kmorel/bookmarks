@@ -3,6 +3,8 @@
 .bookmark-group p {
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-left: 12pt;
+	text-indent: -12pt;
 }
 .bookmark-group h1 {
 	margin-bottom: 0px;
