@@ -1,13 +1,48 @@
 @charset "UTF-8";
 
 .bookmark-group p {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 12pt;
-	text-indent: -12pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 12pt;
+    text-indent: -12pt;
 }
 .bookmark-group h1 {
-	margin-bottom: 0px;
-	font-weight: bolder;
-	font-size: large;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+body {
+    color: #121212;
+    background: white;
+}
+
+a {
+    color: #1565C0;
+    text-decoration: none;
+}
+a:visited {
+    color: #C06515;
+}
+a:hover, a:focus {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #E0E0E0;
+        background: #121212;
+    }
+    a {
+        color: #2196F3;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #BB86FC;
+    }
+    a:hover, a:focus {
+        color: #82B1FF;
+        text-decoration: underline;
+    }
 }
